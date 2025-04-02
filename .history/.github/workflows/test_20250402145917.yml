@@ -10,5 +10,9 @@ jobs:
         with:
           node-version: '22.14.0'
       - run: node -v
+      - run: node -v
+      
       - run: npm install
+      
+    
       - run: npm test
